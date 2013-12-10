@@ -3,10 +3,10 @@ dachs
 
 #Resources
 
-* Simple resource - lmcextinct
-* Simple Cone Search - lmcext2
-* Simple Image Access - siapobsexample
-* ObsCore - siapobsexample
+* Simple resource - lmcextinct.exts
+* Simple Cone Search - lmcext2.ext2
+* Simple Image Access - siapobsexample.spe
+* ObsCore - siapobsexample.spe - ivoa.ObsCore
 
 # TAP
 
@@ -32,6 +32,14 @@ dachs
 
 # SCS
  * Web: http://200.1.19.130:8080/lmcext2/q/cone/scs.xml?
+ * Method: GET
+ * Attributes
+  * RA: Position `Decimal Degree`
+  * DEC: Position `Decimal Degree`
+  * SR: Search Radius `Decimal Degree`
+ 
 # SIAP
+ * Web: http://200.1.19.130:8080/siapobsexample/q/sia/siap.xml?
+ * Method: GET
+ * Attributes
 
-# ObsCore
