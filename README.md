@@ -42,4 +42,18 @@ dachs
  * Web: http://200.1.19.130:8080/siapobsexample/q/sia/siap.xml?
  * Method: GET
  * Attributes
+  * POS = RA,DEC `Decimal degree`
+  * SIZE `Degree`
+  * *Optional*:
+	 * INTERSECT `COVERS , ENCLOSED , CENTER , OVERLAPS`
+	 * NAXIS = <width>,<height> `pixels`
+	 * CFRAME `ICRS, FK5, FK4, ECL, GAL , SGAL`
+	 * EQUINOX `?`
+	 * CRPIX `?`
+	 * CRVAL `?`
+	 * CDELT `?`
+	 * ROTANG `degree`
+	 * PROJ `TAN , SIN , ARC`
+	 * FORMAT `image/fits, ALL, GRAPHIC, METADATA`
+	 * VERB `1 , 2 , 3`
 
