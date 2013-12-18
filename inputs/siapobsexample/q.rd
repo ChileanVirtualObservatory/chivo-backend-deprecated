@@ -91,14 +91,15 @@
 
 
   	<!--Servicio, Publicación-->
-  	<service id="siap" allowed="form">
+  	<service id="sia" allowed="form,siap.xml">
 	    <meta name="shortName">SIAP EXAMPLE</meta>
 	    <meta name="title">"Sample image access"</meta>
   		<meta name="testQuery.pos.ra">230.444</meta>
   		<meta name="testQuery.pos.dec">52.929</meta>
   		<meta name="testQuery.size.ra">0.1</meta>
   		<meta name="testQuery.size.dec">0.1</meta>
-	  	<publish render="siap.xml" sets="local"/>
+		<meta name="sia.type">Pointed</meta>  
+		<publish render="siap.xml" sets="local"/>
   		<publish render="form" sets="local" />
 
 	  	<!-- CORES -->

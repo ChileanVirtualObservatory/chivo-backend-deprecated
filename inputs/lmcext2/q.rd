@@ -26,6 +26,12 @@
 		<meta name="description">
 		  Extinction values within certain areas on the sky.
 		</meta>
+		<column name="object" type="text"
+                  ucd="meta.id;meta.main"
+                  tablehead="Object"
+                  description="ALMA 2012-04-21T02:08:09.504000"
+                  verbLevel="1"/>
+
 		<column name="bbox" type="box"
 		  unit="deg"
 		  description="Bounding box for the extinction data"/>
