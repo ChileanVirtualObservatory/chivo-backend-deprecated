@@ -306,25 +306,25 @@
 
 	<data id="import_content_obs_2">
 		<sources pattern="res/harv/*.csv"></sources>
-  	<reGrammar topIgnoredLines="1" fieldsep=" " recordCleaner="(.*)\,(201[0-9])(\.[0-1A]\.[.*])\,(.*)">
-  		<ignoreOn name="cycle1">
-  			<keyIs key="year" value="2012"/>
-  		</ignoreOn>
-  		<names>obsId, year, projectCode, dateObs</names>
-  	</reGrammar>
-  	<make table="asdm_uid">
-  		<rowmaker id="build_har">
+	  	<reGrammar topIgnoredLines="1" fieldSep=" " recordCleaner="(.*)\,(201[0-9])(.*)\,(.*)">
+	  		<ignoreOn name="cycle1">
+	  			<keyIs key="year" value="2012"/>
+	  		</ignoreOn>
+	  		<names>obsId, year, projectCode, dateObs</names>
+	  	</reGrammar>
+	  	<make table="asdm_uid">
+	  		<rowmaker id="build_har">
 
-  			<apply name="cycle0ProyectCode">
-					<code>
-					# Cycle0 Proyect Code, ignoring the element
-					vars["deliveryName"] = @projectCode
-					</code>
-				</apply>
-  			<map dest="obsId">@obsId</map>
-  			<map dest="deliveryName">@deliveryName</map>
-  			<map dest="dateObs">@dateObs</map>
-  		</rowmaker>
-  	</make>
+	  			<apply name="cycle0ProyectCode">
+						<code>
+						# Cycle0 Proyect Code, ignoring the element
+						vars["deliveryName"] = @projectCode
+						</code>
+					</apply>
+	  			<map dest="obsId">@obsId</map>
+	  			<map dest="deliveryName">@deliveryName</map>
+	  			<map dest="dateObs">@dateObs</map>
+	  		</rowmaker>
+	  	</make>
 	</data>
 </resource>
