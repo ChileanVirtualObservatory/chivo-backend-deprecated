@@ -1,0 +1,24 @@
+publisher: ChiVO UTFSM
+publisherID: ivo://chivo/lirae
+contact.name: Mauricio Araya
+contact.address: Av. España 1680 Valparaíso
+contact.email: registry@chivo.cl
+contact.telephone: +56322654562
+creator.name: Patricio Ramirez
+creator.logo: http://www.chivo.cl/assets/logo1-default-12f146c223d818b7027130de22141a5c.png
+
+_noresultwarning: Your query did not match any data.
+
+authority.creationDate: 2013-06-19 20:42:47.463375
+authority.title: LIRAE UTFSM Data Center
+authority.shortName: LIRAE
+authority.description: Laboratory of Interdiciplinary Research on AstroEngineering at UTFSM
+authority.referenceURL: http://www.chivo.cl
+authority.managingOrg: ivo://chivo/lirae
+organization.title: Universidad Tecnica Federico Santa Maria
+organization.description: Technical University at Valparaiso Chile
+organization.referenceURL: http://www.utfsm.cl
+
+site.description: CHiVO data center concentrates \
+datasets from different observatories and astronomers \
+located or related to Chile. 
